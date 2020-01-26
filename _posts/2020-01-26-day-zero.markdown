@@ -4,7 +4,7 @@ title:  "Day Zero with Jekyll on GitHub"
 date:   2020-01-26 07:30:55 -0500
 categories: jekyll update
 ---
-This is where it begins.
+This is where _REALLY_ it begins.
 
 Jekyll requires blog post files to be named according to the following format:
 
