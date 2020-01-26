@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "Day Zero with Jekyll on GitHub"
+date:   2020-01-26 07:30:55 -0500
+categories: jekyll update
+---
+This is where _REALLY_ it begins.
+
+Jekyll requires blog post files to be named according to the following format:
+
+`YEAR-MONTH-DAY-title.MARKUP`
+
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+
+https://photos.app.goo.gl/3BZaTxkQzoDfsnzt6
+
+D
+<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+<div class="pa-gallery-player-widget" style="width:100%; height:480px; display:none;"
+  data-link="https://photos.app.goo.gl/3BZaTxkQzoDfsnzt6"
+  data-title="New photo by Ed Dennison"
+  data-repeat="false">
+  <object data="https://lh3.googleusercontent.com/8qvJCr0yOOppxpNPxR6iprqdi0xJxMwc8NOseUbYOMnEIdd9znLpOLPSowIAOZ06EJ6jcuFIYFVg55_LfgfYRnK1RbBhl6PzcqD0NAX8k-RFM6qroDjFt9UneSQdoGZRvrogNqxp5dg=w1920-h1080"></object>
+</div>
+
+![image-title-here](https://photos.app.goo.gl/3BZaTxkQzoDfsnzt6){:class="img-responsive"}
+A
+A
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
