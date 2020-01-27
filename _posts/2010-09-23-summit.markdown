@@ -3,7 +3,6 @@ layout: post
 title:  "Into the Clouds"
 date:   2010-09-23 07:30:55 -0500
 categories: jekyll update
-excerpt_separator: <!--more-->
 ---
 Is this the limit of the excerpt?
 <!--more-->
