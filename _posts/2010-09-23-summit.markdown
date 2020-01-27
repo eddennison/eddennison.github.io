@@ -4,8 +4,6 @@ title:  "Into the Clouds"
 date:   2010-09-23 07:30:55 -0500
 categories: jekyll update
 ---
-Is this the limit of the excerpt?
-<!--more-->
 I fulfilled a key life goal last week by hiking to the top of New England's highest peak, Mt. Washington. The hike took me up the Ammonoosuc Ravine Trail to the summit, then across to the summit of Mt. Jefferson and down the Caps Ridge trail. About 10 miles of walking and about 4500 feet of vertical climb. Time on the trail was 9 hours.
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
