@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "vi"
+date:   2015-03-08 07:30:55 -0500
+categories: jekyll update
+---
+If you're going to work with a Linux host, you need to know at least a little vi.
+
+![My helpful screenshot](/files/vi.png)
+
+
+
+
+

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nurburgring"
+title:  "Nürburgring Nordschleife"
 date:   2011-09-21 07:30:55 -0500
 categories: jekyll update
 ---

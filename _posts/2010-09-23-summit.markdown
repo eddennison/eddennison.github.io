@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Into the Clouds"
+title:  "Top of the World, New England Edition"
 date:   2010-09-23 07:30:55 -0500
 categories: jekyll update
 ---
