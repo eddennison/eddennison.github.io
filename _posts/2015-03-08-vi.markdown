@@ -8,6 +8,9 @@ If you're going to work with a Linux host, you need to know at least a little vi
 
 ![My helpful screenshot](/files/vi.png)
 
+Available formats: [PDF](/files/vi.pdf) [Editable PDF](/files/vi.editable.pdf) [Press-Ready PDF](/files/vi.press.pdf) [PNG](/files/vi.png)
+
+License: ©2015 Ed Dennison CC-BY-NC-SA
 
 
 
