@@ -4,5 +4,4 @@ title: All about Ed
 permalink: /about/
 ---
 
-Not much to say here. Not much at all.
-
+To get in touch with me, consider sending me a message on [LinkedIn](http://www.linkedin.com/in/eddennison), [Twitter](http://twitter.com/ekbd), or the e-mail address at te bottom of this page.
