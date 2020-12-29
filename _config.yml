@@ -34,7 +34,7 @@ plugins:
 
 # Google Analytics
 # Uncomment this line to try using analytics again :)
-google_analytics: G-RKT8BHWBH6
+# google_analytics: G-RKT8BHWBH6
 
 
 # Exclude from processing.
