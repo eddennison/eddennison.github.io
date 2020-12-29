@@ -28,7 +28,7 @@ show_excerpts: true
 excerpt_separator: <!--more-->
 
 # Build settings
-theme: jekyll-theme-hacker
+theme: minima
 plugins:
   - jekyll-feed
 
