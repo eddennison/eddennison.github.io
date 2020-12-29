@@ -23,9 +23,10 @@ email: ed.dennison@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Really just a placeholder site for my domain.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://eddennison.com # the base hostname & protocol for your site, e.g. http://example.com
 show_excerpts: true
 excerpt_separator: <!--more-->
+comments: true
 
 # Build settings
 theme: minima
@@ -33,7 +34,15 @@ plugins:
   - jekyll-feed
 
 # Google Analytics
+# Uncomment this line to try using analytics again :)
 google_analytics: G-RKT8BHWBH6
+
+
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: ekbd
 
 
 # Exclude from processing.
