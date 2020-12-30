@@ -22,7 +22,7 @@ you for remaining time from godaddy.com. Cost is $12 per domain.
 ## Configure DDNS
 
 Within the **DNS Settings**, create a **Synthetic Record** of type **DDNS**. Don't bother setting the IP address -- we'll 
-use the following script, run from the host, to do that using [Google Domains API][https://support.google.com/domains/answer/6147083?hl=en].
+use the following script, run from the host, to do that using [Google Domains API](https://support.google.com/domains/answer/6147083?hl=en).
 
 
 ```
