@@ -51,7 +51,10 @@ curl -s $URL
 I'm interested in a few subdomains for various projects -- you can easily set those up by adding **Custom resource records** of
 type **CNAME**:
  
-![CNAMES](/images/CNAMES.png | width=400)
+![CNAMES](/images/CNAMES.png)
+
+For example, after working through the [Angular Tour of Heroes](https://angular.io/tutorial) project, I decided to deply it to
+[](https://heroes.mistersquawk.com).
 
 # Configure nginx server block for each domain
 
