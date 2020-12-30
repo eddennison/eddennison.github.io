@@ -48,6 +48,11 @@ curl -s $URL
 
 ## Set up subdomains
 
+I'm interested in a few subdomains for various projects -- you can easily set those up by adding **Custom resource records** of
+type **CNAME**:
+
+![CNAMES](CNAMe.png)
+
 # Configure nginx server block for each domain
 
 
