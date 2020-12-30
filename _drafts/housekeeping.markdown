@@ -21,11 +21,45 @@ you for remaining time from godaddy.com. Cost is $12 per domain.
 
 ## Configure DDNS
 
+https://support.google.com/domains/answer/6147083?hl=en
+
+```
+### Google Domains provides an API to update a DNS
+### "Synthetic record". This script updates a record with 
+### the script-runner's public IP address, as resolved using a DNS
+### lookup.
+###
+### Google Dynamic DNS: https://support.google.com/domains/answer/6147083
+### Synthetic Records: https://support.google.com/domains/answer/6069273
+
+SQUAWK_USERNAME="NkPv98q4d385kYoN"
+SQUAWK_PASSWORD="2QhJLOgLESvDAoPf"
+SQUAWK_HOSTNAME="@.mistersquawk.com"
+
+HA_USERNAME="DnkwemUQYbuhbwYX"
+HA_PASSWORD="E2S26ylO2uZ3j6CQ"
+HA_HOSTNAME="@.hedonicadjustment.com"
+
+# Resolve current public IP
+IP=$( dig +short myip.opendns.com @resolver1.opendns.com )
+# Update Google DNS Record
+URL="https://${SQUAWK_USERNAME}:${SQUAWK_PASSWORD}@domains.google.com/nic/update?hostname=${SQUAWK_HOSTNAME}&myip=${IP}"
+curl -s $URL
+URL="https://${HA_USERNAME}:${HA_PASSWORD}@domains.google.com/nic/update?hostname=${HA_HOSTNAME}&myip=${IP}"
+curl -s $URL
+```
+
+
+Within the **DNS Settings**, create a **Synthetic Record** of type **DDNS**. Don't bother setting the IP address -- that will
+be taken care of by the next step.
+
+# Create and automate script to autoupdate DDNS 
+
+
 ## Set up subdomains
 
 # Configure nginx server block for each domain
 
-# Create and automate script to autoupdate DDNS 
 
 # Use certbot and LetsEncrypt to generate and install certificates
 
