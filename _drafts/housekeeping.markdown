@@ -14,6 +14,8 @@ In the mean time, I had installed Linux on a derelict Lenovo laptop and exposed 
 server, and I configured it for SSH publickey access. I also acquired a DDNS name from noip.com (free, but you had to renew it each month), so I could work with 
 this system from anywhere (say at work). 
 
+# Heading
+
 Once you own a domain, especially domain named after yourself, you're kind of stuck with it. You can't really just throw it back into the ocean. For a long time,
 this domain was pointed at a page created with the "original" Google Sites (you can see it [here](https://sites.google.com/site/eddennisonbeta/)), but there was no easy way to support https with a custom domain on legacy Google Sites. 
 
