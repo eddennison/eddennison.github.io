@@ -4,15 +4,15 @@ title:  "Free hosting (multiple domains, SSL, subdomains)"
 date:   2020-02-2 14:30:55 -0500
 categories: plumbing
 ---
-In addition to this domain, I had a couple others languishing at the somewhat skeevy 
-[godaddy.com](https://gizmodo.com/godaddy-sorry-we-promised-holiday-bonuses-that-was-ju-1845948766). I'd configured them to redirect to a pair of Medium publications, back
+In addition to this domain, I had a couple others languishing at the somewhat  
+[skeevy godaddy.com](https://gizmodo.com/godaddy-sorry-we-promised-holiday-bonuses-that-was-ju-1845948766). I'd configured them to redirect to a pair of Medium publications, back
 when Medium was 
 offering [free SSL certificates for custom domains on their site](https://help.medium.com/hc/en-us/articles/115003053487-Custom-Domains-service-deprecation). 
 
 I also had an obsolete Lenovo laptop running Linux, with Verizon Fios 
 internet service, pointed to by a a DDNS name from noip.com I'd been using it for hobby-grade stuff, but the lack of HTTPS was going to be a problem.
 
-But thanks to a collection of great tips from https://medium.com/@jeremygale/how-to-set-up-a-free-dynamic-hostname-with-ssl-cert-using-google-domains-58929fdfbb7a 
+But thanks to a collection of great tips from [Jeremy Gale](https://medium.com/@jeremygale/how-to-set-up-a-free-dynamic-hostname-with-ssl-cert-using-google-domains-58929fdfbb7a)
 I was able to redirect my two domains to my server, set up a number of subdomains, and obtain free SSL certificates for everything. Here's a short recap of 
 what I did.
 
