@@ -1,9 +1,17 @@
 ---
 layout: post
-title:  "Housekeeping"
+title:  "Free hosting (multiple domains, SSL, subdomains)"
 date:   2020-02-2 14:30:55 -0500
 categories: plumbing
 ---
+In addition to this domain, I had a couple others languishing at godaddy. I'd configured them to redirect to a pair of Medium publications, back
+when Medium was offering free SSL certificates for custom domains on their site. I also had an obsolete Lenovo laptop running Linux, with Verizon Fios 
+internet service.
+
+I'd been using noip.com to establish a DDNS name for my server, and I've been using it for hobby-grade stuff, but the lack of HTTPS was going to be a problem.
+
+But thanks to a collection of great tips from https://medium.com/@jeremygale/how-to-set-up-a-free-dynamic-hostname-with-ssl-cert-using-google-domains-58929fdfbb7a, 
+
 In addition to this site's domain, I also own a couple of others. Years ago, I had a modestly popular "personal finance blog", and one of these domains 
 pointed to that blog (on blogger). The other (mistersquawk.com) was acquired on a whim.
 
