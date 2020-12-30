@@ -13,7 +13,7 @@ But thanks to this article from [Jeremy Gale](https://medium.com/@jeremygale/how
 I was able to redirect my two domains to my on-prem Ubuntu server, set up a number of subdomains, and obtain free SSL certificates for everything. 
 
 Here's a short recap of what I did.
-
+<!--more-->
 # Domain transfer from Godaddy to Google Domains
 
 At https://domains.google.com you can easily initiate a domain transfer. The site walks you through the process, transfers any custom DNS settings, and credits
