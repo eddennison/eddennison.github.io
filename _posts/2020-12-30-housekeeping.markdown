@@ -16,7 +16,7 @@ Here's a short recap of what I did.
 <!--more-->
 # Domain transfer from Godaddy to Google Domains
 
-At https://domains.google.com you can easily initiate a domain transfer. The site walks you through the process, transfers any custom DNS settings, and credits
+At <https://domains.google.com> you can easily initiate a domain transfer. The site walks you through the process, transfers any custom DNS settings, and credits
 you for remaining time from godaddy.com. Cost is $12 per domain for the transfer, and $12 for renewals thereafter.
 
 ## Configure DDNS
@@ -52,7 +52,7 @@ type **CNAME**:
 ![CNAMES](/images/CNAMES.png)
 
 For example, after working through the [Angular Tour of Heroes](https://angular.io/tutorial) project, I decided to deply it to
-https://heroes.mistersquawk.com.
+<https://heroes.mistersquawk.com>.
 
 # Configure nginx server block for each domain
 
