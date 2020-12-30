@@ -21,7 +21,7 @@ you for remaining time from godaddy.com. Cost is $12 per domain for the transfer
 
 ## Configure DDNS
 
-Within the **DNS Settings**, create a **Synthetic Record** of type **DDNS**. Don't bother setting the IP address -- that is set by  
+Within the **DNS Settings**, create a **Synthetic Record** of type **DDNS**. Don't bother setting the IP address -- that is set by
 this script, run from the host, that uses [Google Domains API](https://support.google.com/domains/answer/6147083?hl=en).
 
 ```
@@ -51,7 +51,7 @@ type **CNAME**:
  
 ![CNAMES](/images/CNAMES.png)
 
-For example, after working through the [Angular Tour of Heroes](https://angular.io/tutorial) project, I decided to deply it to
+For example, after working through the [Angular Tour of Heroes](https://angular.io/tutorial) project, I decided to deploy it to
 <https://heroes.mistersquawk.com>.
 
 # Configure nginx server block for each domain
