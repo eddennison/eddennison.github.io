@@ -10,7 +10,26 @@ internet service.
 
 I'd been using noip.com to establish a DDNS name for my server, and I've been using it for hobby-grade stuff, but the lack of HTTPS was going to be a problem.
 
-But thanks to a collection of great tips from https://medium.com/@jeremygale/how-to-set-up-a-free-dynamic-hostname-with-ssl-cert-using-google-domains-58929fdfbb7a, 
+But thanks to a collection of great tips from https://medium.com/@jeremygale/how-to-set-up-a-free-dynamic-hostname-with-ssl-cert-using-google-domains-58929fdfbb7a 
+I was able to redirect my two domains to my server, set up a number of subdomains, and obtain free SSL certificates for everything. Here's a short recap of 
+what I did.
+
+# Domain transfer from Godaddy to Goole Domains
+
+At https://domains.google.com you can easily initiate a domain transfer. The site walks you through the process, transfers any custom DNS settings, and credits
+you for remaining time from godaddy.com. Cost is $12 per domain.
+
+## Configure DDNS
+
+## Set up subdomains
+
+# Configure nginx server block for each domain
+
+# Create and automate script to autoupdate DDNS 
+
+# Use certbot and LetsEncrypt to generate and install certificates
+
+
 
 In addition to this site's domain, I also own a couple of others. Years ago, I had a modestly popular "personal finance blog", and one of these domains 
 pointed to that blog (on blogger). The other (mistersquawk.com) was acquired on a whim.
