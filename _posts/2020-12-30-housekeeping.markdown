@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Free hosting (multiple domains, SSL, subdomains)"
-date:   2020-12-3o 14:30:55 -0500
+date:   2020-12-30 14:30:55 -0500
 categories: plumbing
 ---
 In addition to this domain, I had a couple others languishing at the somewhat [skeevy godaddy.com](https://gizmodo.com/godaddy-sorry-we-promised-holiday-bonuses-that-was-ju-1845948766). I'd configured them to redirect to a pair of Medium publications, back when Medium was offering [free SSL certificates for custom domains on their site](https://help.medium.com/hc/en-us/articles/115003053487-Custom-Domains-service-deprecation). 
