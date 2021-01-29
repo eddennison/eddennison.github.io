@@ -4,6 +4,4 @@
 
 layout: home
 ---
-{% if post.excerpt != post.content %}
-    <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
-{% endif %}
+
