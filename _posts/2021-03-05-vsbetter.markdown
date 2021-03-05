@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Quality of Life"
+date:   2021-03-04 07:30:55 -0500
+categories: jekyll update
+---
+I'm spending a lot of time in [Visual Studio Code](https://code.visualstudio.com/) on
+a Linux-enabled [Chromebook](https://code.visualstudio.com/blogs/2020/12/03/chromebook-get-started). (In fact, I'm using it right now.)
+
+Unfortunately, the default appearance of the menu bar, well meh...
+
+![default](/images/vsc_before.png)
+
+But it turns out that with a small preferences tweak
+
+![how to](/images/vsc_how.png)
+
+you can have a nice, compact menu bar:
+
+![how to](/images/vsc_after.png)
+
+
+
