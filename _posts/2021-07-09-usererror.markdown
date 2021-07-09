@@ -32,4 +32,4 @@ What I didn't do, however, was disconnect the other devices from the router befo
 
 The underlying problem turned out to be that I had not configured the FiOS router's IPV4 address distribution settings. As soon as I excluded the static IP addresses from the IPV4 address distribution, the problem was solved. 
 
-I'm not sure exactly what led me to the solution, althoug as soon as I realized that the wired Ethernet switch was somehow poisoning the FiOS router, I had a good clue. I was somewhat surprised that the presence of a misconfigured device would take down the entire wired side of the router.
+I'm not sure exactly what led me to the solution, although as soon as I realized that the wired Ethernet switch was somehow poisoning the FiOS router, I had a good clue. I was somewhat surprised that the presence of a misconfigured device would take down the entire wired side of the router.
