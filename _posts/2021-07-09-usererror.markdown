@@ -14,7 +14,7 @@ The "consumer" network is managed by a Google Mesh WiFi system. This mesh router
 
 The "professional" network is managed by the FiOS router. An Ethernet switch is connected to the router, and it provides wired connections for a Linux host (used to serve a hobby web site), a laser printer, the wired dock for my work computer, and a second media streaming device.
 
-The laser printer and the Linux host are both configured with static IP addresses, and the FiOS router is configured to forward ports 80 and 443, along with a nonstandard port for SSH traffic, to that device. 
+The laser printer and the Linux host are both configured with static IP addresses. The FiOS router is configured to forward ports 80 and 443, along with a nonstandard port for SSH traffic, to the Linux host. This allows me to use it as a web server and to manage it remotely. (The printer's static address makes it easier to connect to it from a Chromebook.) 
 
 The FiOS router is also configured to provide a second wireless network. This network is for "backup" in case of problems with the mesh network.
 
