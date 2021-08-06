@@ -13,7 +13,7 @@ The following diagram summarizes the overall network configuration:
 The "consumer" network is managed by a Google Mesh WiFi system. This mesh router is connected to the FiOS router through a wired connection. The mesh router is also connected to an Ethernet switch, and this switch provides wired connection for consumer devices including a game console, media streaming device, and a Chromecast-equipped smart TV.
 
 The "professional" network is managed by the FiOS router. An Ethernet switch is connected to the router, and it provides wired connections for a Linux host (used to serve a hobby web site), a laser printer, the wired dock for my work computer, and a second media streaming device.
-
+<!--more-->
 The laser printer and the Linux host are both configured with static IP addresses. The FiOS router is configured to forward ports 80 and 443, along with a nonstandard port for SSH traffic, to the Linux host. This allows me to use it as a web server and to manage it remotely. (The printer's static address makes it easier to connect to it from a Chromebook.) 
 
 The FiOS router is also configured to provide a second wireless network. This network is for "backup" in case of problems with the mesh network.
