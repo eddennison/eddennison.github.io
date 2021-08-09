@@ -19,22 +19,17 @@ I installed a modern rip fence, table extensions, and an outfeed table:
 
 ![default](/images/fenced.jpg)
 
-I've been meaning to write up my experience adapting a new  
-fence to this ancient saw, but Ive been stymied by the problem of how to illustrate the story. 
+I've been meaning to write up my experience adapting a new fence to this ancient saw, but Ive been stymied by the problem of how to illustrate the story. 
 
-I wanted to avoid the time-consuming work of creating a parametric representation of my work (Sketchup or OnShape), and I 
-was interested in a more informal look, so I tried creating sketches on my ReMarkable 2 tablet.
+I wanted to avoid the time-consuming work of creating a parametric representation of my work (Sketchup or OnShape), and I was interested in a more informal look, so I tried creating sketches on my ReMarkable 2 tablet.
 
 ![default](/images/s1.png)
 
-My modern fence (a Delta T3 Biesemeyer-style fence) is based on a heavy L-section bracket secured to the front face
-of the saw table. The main beam is then bolted to this bracket. Unfortunately, the table on my old saw wasn't
-thick enough to provide for a vertical face to which to secure the bracket:
+My modern fence (a Delta T3 Biesemeyer-style fence) is based on a heavy L-section bracket secured to the front face of the saw table. The main beam is then bolted to this bracket. Unfortunately, the table on my old saw wasn't thick enough to provide for a vertical face to which to secure the bracket:
 
 ![default](/images/s2.png)
 
-But fortunately, the table did include three threaded mounting holes on the underside of the front edge of
-the table. I used these holes to mount a 1x1 steel tube to the bottom:
+But fortunately, the table did include three threaded mounting holes on the underside of the front edge of the table. I used these holes to mount a 1x1 steel tube to the bottom:
 
 ![default](/images/s3.png)
 
