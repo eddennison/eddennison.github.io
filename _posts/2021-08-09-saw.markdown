@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Illustration"
+date:   2021-08-08 09:00:00 -0500
+categories: art
+---
+Sometimes the most effective method for communicating technical information is a quick drawing on a witeboard. 
+
+A number of years ago, I acquired a Craftsman tablesaw from the 1930s:
+
+![default](/images/brochure.png)
+<!--more-->
+
+Although it was somewhat the worse for wear:
+
+![default](/images/atrouve.jpg)
+
+I installed a modern rip fence, table extensions, and an outflow table:
+
+![default](/images/fenced.jpg)
+
+I've been meaning to write up some of te clever ways that I needed to adapt a modern 
+fence to this ancient saw, but Ive been stymied by the problem of how to illustrate the story. 
+
+I wanted to avoid the time-consuming work of creating a parametric representation of my work (Sketchup or OnShape), and I 
+was interested in a more informal look, so I tried creating sketches on my ReMarkable 2 tablet.
+
+The saw, in all its glory
+
+![default](/images/s1.png)
+
+Trying to hang the fence rail doesn't work -- the table isn't thick enough!
+
+![default](/images/s2.png)
+
+So let's mount a 1x1 steel tube to the bottom of the table -- fortunately, the table has 3/8 threaded holes in the underside.
+
+![default](/images/s3.png)
+
+Now we're cooking.
+
+![default](/images/s4.png)
+
+Because the  rail now has a tall enough surface to bolt up against.
+
+![default](/images/s5.png)
+
+
