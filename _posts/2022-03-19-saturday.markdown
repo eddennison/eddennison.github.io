@@ -1,0 +1,86 @@
+---
+layout: post
+title:  "Saturday"
+date:   2022-03-19 10:00:00 -0600
+categories: plumbing
+---
+They say it's good to have goals. Every Saturday, mine is to complete the Saturday New York Times crossword puzzle, in ink, without errors.
+
+Today I came close, but unfortunately I spelled 'Lon Chaney' incorrectly on my very first entry.
+
+![default](/images/sat.gif)
+
+If you want to play along, here were the clues:
+
+```
+ACROSS
+1 It means "father of" in Arabic
+4 Catty remark?
+7 Rated PG-13 or R, say
+12 Sylphlike
+14 Fit out
+15 "Amaaazing!"
+16 Is a witness
+17 Comedian John who is said to resemble a love child of
+   Harry Potter and Owl from "Winnie-the-Pooh"
+18 Ottawa leader
+19 Stun gun
+20 Like part of a dress affected by static cling, say
+22 Hootenanny
+24 Word with gag and ground
+25 Headwear for the big game?
+27 Levy of "Schitt's Creek"
+28 Isn't open about oneself
+30 Drink cooler
+33 Stereotypical Silicon Valley types
+35 Act huffy?
+37 Came out of the blue?
+39 Launched weapons
+41 Unwanted autocorrections
+43 Bonny young lady
+44 Influenza
+45 Some Buddhist mandalas, e.g.
+46 [More details below]
+47 Acknowledgment of a poor performance
+48 Schoolmaster for the classroom, e.g.
+49 Italy's longest river
+50 Spec for a script
+51 Atlanta-based network
+DOWN
+1 Parcel
+2 Place to study cultures
+3 They're issued by the Bureau of Consular Affairs
+4 Suit cut between "classic" and "slim"
+5 House of Saud title
+6 Like some blankets and bars
+7 Along with the anteater, one of two animals 
+  in the order Pilosa
+8 Less hurried
+9 "Pfft, this one doesn't work"
+10 Count ___
+11 Currency whose name means, literally, "round"
+13 More than a couple
+14 Skin-toned cosmetic
+16 Silent film star known as the "Man of 
+   a Thousand Faces"
+18 Disciplinarians, at times
+20 Something often seen with trunks
+21 Fold
+23 British pop star with more "Ed Sullivan Show"
+   appearances than the Beatles
+26 It gets bald over time
+29 Going down the drain, in a way
+30 Inits. at a bar
+31 Place to get a wax
+32 Summit goal
+34 Back
+36 Occupied
+38 Can opener
+40 Cattle-grazing tract
+42 Looks like
+44 Good name for a biologist?
+45 Collect dust
+46 ___ Taylor-Johnson, director of "Fifty
+   Shades of Grey"
+```
+
