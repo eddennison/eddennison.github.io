@@ -4,7 +4,7 @@ title:  "Google Domains, We Hardly Knew Ya"
 date:   2024-03-02 15:30:55 -0500
 categories: plumbing
 ---
-Three years ago I [wrote about]({% post_url 2020-12-30-housekeeping %}) deploying a pair of sites using HTTP from a $100 fanless PC over my FIOS connection. The post details how [Google Domains](https://en.wikipedia.org/wiki/Google_Domains) can be used to implement a roll-your-own DDNS system for domains registered there. 
+Three years ago I [wrote about]({% post_url 2020-12-30-housekeeping %}) deploying a pair of sites using HTTPS from a $100 fanless PC over my FIOS connection. The post details how [Google Domains](https://en.wikipedia.org/wiki/Google_Domains) can be used to implement a roll-your-own DDNS system for domains registered there. 
 
 Not long after [officially announcing that Google Domains](https://blog.google/outreach-initiatives/entrepreneurs/register-a-domain-google-domains/) was out of beta on March 15, 2022, Google [sold Google Domains to Squarespace](https://support.google.com/domains/answer/13689670?hl=en). I had been hoping that the API would continue to be supported by Squarespace, but sadly no.
 
