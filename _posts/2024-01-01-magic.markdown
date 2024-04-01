@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Magic"
+date:   2024-04-01 01:30:55 -0500
+categories: [plumbing,money]
+---
+If you're an AT&T cell customer, you can save a lot of money by switching to Consumer Cellular. For our 4-line plan, switching from AT&T saved more than $150 each month (four lines, unlimited data, throttled after 50GB) while still using the AT&T network infrastructure.
+
+One initial problem was that conditional call forwarding (CCF) wasn't supported. CCF allows you to forward unanswered/unreachable/busy calls to a different number. If you have a Google Voice number (free VOIP calling, nice Android app), using CCF to forward missed cellular calls means that any voicemail messages can be transcribed and e-mailed to you.
+
+This is a great feature, but using the standard AT&T Feature Access Code (FAC)
+```
+*004*15085551234*11#
+```
+to configure it resulted in errors like this:
+```
+Carrier Message
+Call forwarding
+GENERIC_FAILURE
+```
+Using the Android app UI (**Settings->Calls->Call Forwarding**) produced these errors:
+```
+Call settings error
+Network or SIM card error.
+```
+For some reason, I tried doing this again recently, and this time it worked! Interestingly, updating the forwarding through the Android app didn't seem to work, but using the FAC did, and after setting forwarding through the FAC, the forwarding numbers appeared in the UI.
+
+Handy. And magic.
