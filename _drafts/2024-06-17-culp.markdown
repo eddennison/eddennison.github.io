@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Larry, Moe, and Curly"
+date:   2024-06-17 01:30:55 -0500
+categories: [money]
+---
+There is no better telling of the tale of General Electric than William Cohan's 2022
+epic [***Power Failure***](https://www.penguinrandomhouse.com/books/609226/power-failure-by-william-d-cohan/){:ta rget="_blank"}. 
+
+Key review points:
+
+- Exhaustive treatment of early years, particularly the customer financing for providing power plants and local distribution.
+- Long history of M&A on GE history
+- Laborious disaquisitions on the personal lives of bit players, particularly those living.
+- ** Need to spend more time looking at the Immelt succession story -- how did that happen?
+- ** Details of Alstrom acquisition
+- ** Flannery succession
+- Dismissive treatment of Culp -- was he using Flannery as a catspaw or did he simply execute the breakup plan originated by Flannery.
+
+Thesis ideas:
+
+- Conglomeration vs deconstruction. What is the relationship between how the individual components assembled to form GE and how did they spin apart to end it.
+- Did 
+
