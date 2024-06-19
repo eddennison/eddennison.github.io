@@ -13,12 +13,35 @@ Key review points:
 - Long history of M&A on GE history
 - Laborious disaquisitions on the personal lives of bit players, particularly those living.
 - ** Need to spend more time looking at the Immelt succession story -- how did that happen?
+- *** Beat out John McNerny, who went to 3M then Boeing, where
+he led the 737Max, although his successor Muilenberg took the fall.
+- *** not a detail guy. Impact of SUP (pension plan doled
+out by CEO that paid huge post-retirement money if you stick around ' )\
+- *** 2015 divestiture of 90% of GE Capital and expensive
+complex Alstom acquisition, plus getting into bed with Trian.
+- *** Immelt's signature failure was the long-term insurance debacle.
+Or was it the Alstom debacle. Hard to say.
+
 - ** Details of Alstrom acquisition
 - ** Flannery succession
+- *** Immelt resigned following the "pivot". Flannery was a GE lifer 
+from capital. First person to really look at the businesses from
+an operational point of view. Also correctly identified the three 
+core businesses.
 - Dismissive treatment of Culp -- was he using Flannery as a catspaw or did he simply execute the breakup plan originated by Flannery.
+- ** Neither. Culp presumably saw Flannery's analysis, or maybe
+it was so obvious a dog could see it. 
+- ** Culp pushed out Flannery because he recognized
 
 Thesis ideas:
 
-- Conglomeration vs deconstruction. What is the relationship between how the individual components assembled to form GE and how did they spin apart to end it.
-- Did 
+- Conglomeration vs deconstruction. What is the relationship between how the individual components assembled to form GE and 
+how did they spin apart to end it.
+- GE management under Welch came to believe that the management themselves were the secret sauce. In fact, the unlocking of 
+shareholder value by the breakup came with (perhaps because of) the destruction of centralized management. The individual companies 
+are small enough that there is no place (spare cash flow) to build monuments to their management teams.
+- To what degree has the emergence of more cost-effecctive software tools for basic back office functions along with SAAS products enable
+- Look at total returns for GE stock purchased at the time of the big WSJ? article. About 400%.
+- In the end, what GE leaders starting with Welch regarded as the 
+core of GE's value (the management 'culture') was in fact what destroyed the company. People are all the same.
 
