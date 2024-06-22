@@ -4,8 +4,6 @@ title:  "Chuck and Michael"
 date:   2024-04-18 01:30:55 -0500
 categories: [tech]
 ---
-(test)
-
 "Nerds of a certain age" are likely to have heard of, or perhaps even watched, the TV show [**Chuck**](https://en.wikipedia.org/wiki/Chuck_(TV_series)). In addition to some amusing writing and strong performances by Adam Baldwin and Zachary Levi, the series featured a recurring leitmotif of notable books on software design and development.
 
 The episode [***Chuck and the Broken Heart***](https://en.wikipedia.org/wiki/Chuck_Versus_the_Broken_Heart) features the definitive work on XSLT: [***XSLT Programmer's Reference***](https://www.wiley.com/en-us/XSLT+2+0+Programmer's+Reference,+3rd+Edition-p-9780764576492).
