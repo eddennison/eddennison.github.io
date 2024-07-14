@@ -4,8 +4,41 @@ title:  "Larry, Moe, and Curly"
 date:   2024-06-17 01:30:55 -0500
 categories: [money]
 ---
-There is no better telling of the tale of General Electric than William Cohan's 2022
-epic [***Power Failure***](https://www.penguinrandomhouse.com/books/609226/power-failure-by-william-d-cohan/){:ta rget="_blank"}. 
+Perhaps the best history of the rise and fall of General Electric is William Cohan's 2022
+prolix [***Power Failure***](https://www.penguinrandomhouse.com/books/609226/power-failure-by-william-d-cohan/){:ta rget="_blank"}, 
+although for the reader with a shorter attention span, the Wall Street Journal's feature [***GE Powered the American
+Century -- Then it Burned Out***](https://www.wsj.com/articles/ge-powered-the-american-centurythen-it-burned-out-11544796010) 
+provides a nice overview. 
+
+Amongst the tedious recounting of numerous GE managers' university and 
+work experience, Cohan does a nice job tracing the interplay between 
+GE's role building technology and providing financing for its customers.
+
+*some appropriate anecdotes*
+
+In the years between 1980 and 2000, the financial arm of GE, by then called
+GE Capital, began to overwhelm the product side of the business, echoing the
+decline of onshore manufacturing in the US and the concurrent rise of the 
+banking and finance sectors. CEO Jack Welch exploited the ability of GE 
+Capital to generate steady, predictable revenue from lending across markets 
+unrelated to the core GE businesses, and to use those revenues to stabilize
+GEs earnings.
+
+His successor, Jeffrey Immelt, took over the company during the Summer of
+2001,just before the 9/11. 
+
+*how was GE impacted by 9/11, and how did this set the company up for
+an even greater reconing during the 2008 financial meltdown?*
+
+## The Welch Successors
+
+### Immelt
+
+### Flannery
+
+### Culp
+
+
 
 Key review points:
 
