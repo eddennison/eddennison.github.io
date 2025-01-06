@@ -5,3 +5,14 @@ date:   2025-01-06 01:30:55 -0500
 categories: [coding,puzzles]
 ---
 Cryptic crossword puzzles (the 'normal' kind if you're in the UK or a former Commonwealth country such as Canada)
+are defined by the style of cluing, where each clue is made up of a word puzzle of some kind, and frequently
+by a grid layout that limits the number of cross-words.
+
+![default](/images/cryptic_grid.jpg)
+
+Automated tools, such as an anagram search, can be helpful in solving, or speeding the solution of cryptic
+puzzles. 
+
+![default](/images/regexdict.gif)
+
+![default](/images/cryptic_clue.jpg)
