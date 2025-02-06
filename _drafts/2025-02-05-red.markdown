@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "Cryptic Crossword 'Solving Aid'"
+date:   2025-02-05 01:30:55 -0500
+categories: [coding,puzzles]
+---
+Cryptic crossword puzzles (the 'normal' kind if you're in the UK or a former Commonwealth country such as Canada)
+are defined by the style of cluing, where each clue is made up of a word puzzle of some kind, and frequently
+by a grid layout that limits the number of cross-words.
+
+Cryptic crosswords also use a different style of clueing, nicely summarized by the [Emily Cox & Henry Rathvon](https://en.wikipedia.org/wiki/Emily_Cox_and_Henry_Rathvon) in the [Wall Street Journal](https://s.wsj.net/blogs/html/wsjcrypticguide.pdf):
+
+>The clues each have two parts. One part is a normal definition of
+the answer; the other is an additional hint using wordplay.
+Having two hints in each clue might seem a big giveaway to
+solvers. Why aren’t these clues twice as easy? The hitch: Either
+hint may come first. The definition may appear before or after the
+wordplay hint, often without any punctuation to mark the point
+of division. The challenge and fun of a cryptic puzzle is to see
+through the puzzle writer’s deceptions, to tease out the definition
+by rethinking the clue’s wording.
+
+For example, in this today's [Minute Cryptic](https://www.minutecryptic.com/) the clue was
+
+> Spot for a massage...a little lower?
+
+and the answer was **`CALF`**. (Lowing is the correct term for the noise that cows 
+make, and by back-formation, a *lower* is someone or something that *lows* e.g. a cow, and a little cow would be...a calf, which also agrees with the definition making
+up the first half of the clue, "[a] Spot for a massage".)
+
+Some people might describe a cryptic crossword as a puzzle where every clue is its
+own dad joke.
+
+
+
+![default](/images/cryptic_grid.jpg){: width="400" }
+
+Automated tools, such as an anagram search, can be helpful in solving, or speeding the solution of cryptic
+puzzles. 
+
+![default](/images/regexdict.gif)
+
+![default](/images/cryptic_clue.jpg)
