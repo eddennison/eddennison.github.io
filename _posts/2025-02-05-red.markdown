@@ -1,0 +1,70 @@
+---
+layout: post
+title:  "Cryptic Crossword 'Solving Aid'"
+date:   2025-02-05 01:30:55 -0500
+categories: [coding,puzzles]
+---
+Cryptic crossword puzzles (the 'normal' kind if you're in the UK or a former Commonwealth country such as Canada)
+are defined by the style of cluing, nicely summarized by the [Emily Cox & Henry Rathvon](https://en.wikipedia.org/wiki/Emily_Cox_and_Henry_Rathvon) in the [Wall Street Journal](https://s.wsj.net/blogs/html/wsjcrypticguide.pdf):
+
+>The clues each have two parts. One part is a normal definition of
+the answer; the other is an additional hint using wordplay.
+Having two hints in each clue might seem a big giveaway to
+solvers. Why aren’t these clues twice as easy? The hitch: Either
+hint may come first. The definition may appear before or after the
+wordplay hint, often without any punctuation to mark the point
+of division. The challenge and fun of a cryptic puzzle is to see
+through the puzzle writer’s deceptions, to tease out the definition
+by rethinking the clue’s wording.
+
+<!-- 
+For example, in this today's [Minute Cryptic](https://www.minutecryptic.com/) the clue was
+
+> Spot for a massage...a little lower?
+
+and the answer was **`CALF`**. (Lowing is the correct term for the noise that cows 
+make, and by back-formation, a *lower* is someone or something that 
+*lows* e.g. a cow, and a little cow would be...a calf, which also agrees with the definition making
+up the first half of the clue, "[a] Spot for a massage".)
+-->
+
+Some people might describe a cryptic crossword as a puzzle where every clue is its
+own dad joke.
+
+My cryptic crossword skills are...developing, but I not infrequently find myself stuck. 
+In this old puzzle from Cox and Rathvon
+
+![default](/images/cryptic_grid.jpg){: width="400" }
+
+I was trying to solve 12A
+
+![default](/images/cryptic_clue.jpg){: width="400" }
+
+knowing only that it was a nine-letter word, the third letter being 'O' and the last being 'U. 
+
+These constraints can be easily and compactly expressed as a simple regular expression
+
+**`/^..O.....U$/`**
+
+It had occurred 
+to me in the past, that the ability to perform a regular expression search across a dictionary would 
+be a useful tool to help solving this type of puzzle. While there are a number of sites available
+that offer this ([Lou Helvy](https://www.visca.com/regexdict/), [dCode](https://www.dcode.fr/word-search-regexp)) 
+and others, each suffers from shortcomings.
+
+So I decided to create my own, tailored to my specific use case. The result provides an 
+extremely simple user interface. The user enters a valid regular expression, and the
+tool continuously searches a large word list, displaying all matches, up to a preset limit:
+
+![default](/images/regexdict.gif){: width="200" }
+
+This is implemented in Python as a Gunicorn/Flask web service running on an inexpensive, low-powered Linux PC,
+reachable through a custom domain.
+
+And if you're wondering about that clue
+
+> Ceremonial dress is right in two ways for hearing
+
+the words *TRUE* and *SO* are both synonyms for *RIGHT*, in the sense of
+*correct*. The two words spoken together ("TRUE-SO") make a homophone of
+**`TROUSSEAU`**, a type of ceremonial dress.
