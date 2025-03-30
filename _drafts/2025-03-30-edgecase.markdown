@@ -1,0 +1,99 @@
+---
+layout: post
+title:  "Edge Case"
+date:   2025-03-30 01:30:55 -0500
+categories: [coding,puzzles]
+---
+Useless information: If you share a New York Times subscription with someone else, 
+both of you can use the web page interface and keep your own streak statistics, but 
+only one of you can use the mobile version that includes the WordleBot.
+
+Because the Wordlebot shows you the possible guesses at each step in solving the 
+puzzle, it lets you know if your game-ending guess was lucky or a lock.
+
+After finishing the [Regular Expression Dictionary]({% post_url 2025-02-05-red %}) I
+decided to create an app that would list possible Wordle words, given a series of 
+guesses and the colors assigned by Wordle in response. 
+
+The service that I wrote for this application accepts two strings, one of the
+guesses and one with the corresponding colors. If one were wondering, for example, given
+these guesses, how many alternatives existed to QUOTA for this Wordle:
+
+![default](/images/wwordle.jpg){: width="200" }
+
+you would provide the strings `SMARTTABLEATTIC` and `BBYBYYYBBBYYBBB`,
+
+This service (and an associated rudimentary front end) have been up and running
+for a few months, and they have allowed my Wordle companion to see what other 
+possible solutions exist.
+
+Until today, when it responded
+
+![default](/images/wwbug.png){: width="200" }
+
+Perusing the code that parses the input revealed the problem.
+{% highlight python linenos %}
+
+@app.route("/red/wordle/",methods=['GET', 'OPTIONS'])
+def wordle():
+letters = request.args.get('letters').upper() # Concatenation of the guesses
+colors = request.args.get('colors').upper()   # and their colors (B,Y, or G)
+
+# Input validation not shown
+
+never = ""
+always =  [ "","","","",""  ]
+elsewhere =  [ "","","","",""  ]
+required = ""
+
+textfile = open('wwords.txt', 'r')
+filetext = textfile.read()
+textfile.close()
+dictionary = [x.upper() for x in filetext.split('\n')]
+
+possibles = set()
+
+nwords = int(len(letters)/5)
+words = list()
+
+for i in range(0,nwords):
+        words.append(letters[i*5:i*5+5])
+        for j in range(0,5) :
+                if colors[i*5+j] == 'B' :
+                        never += words[i][j] 
+                elif colors[i*5+j] == 'G' :
+                        always[j] = words[i][j]
+                        required += words[i][j]
+                else: # yellow
+                        elsewhere[j] += words[i][j]
+                        required += words[i][j]
+{% endhighlight %}
+Lines 62-63 assume that if a letter is colored B (black), it does
+not appear in the answer. In fact, as in the case of `ATTIC`, if
+the guess contains multiple instances of a letter, all of which are
+incorrectly placed, only the first instance is colored Y (yellow).
+This represents a choice by the Wordle UI designer, since it would be
+equally reasonable to color all the instances yellow.
+
+After applying a quick fix
+``` python
+for i in range(0,nwords):
+        words.append(letters[i*5:i*5+5])
+        for j in range(0,5) :
+                if colors[i*5+j] == 'B' :
+                        if not (words[i][j] in required) : 
+                            never += words[i][j] 
+                elif colors[i*5+j] == 'G' :
+                        always[j] = words[i][j]
+                        required += words[i][j]
+                else: # yellow
+                        elsewhere[j] += words[i][j]
+                        required += words[i][j]
+```
+the correct result is returned, revealing two common words to be
+valid: `QUOTA` and `JUNTA`.
+
+![default](/images/wwnobug.png){: width="200" }
+
+(Because this app shares its dictionary with the crossword-oriented Regular Expression Dictionary, 
+many proper nouns and other unlikely Wordle words are returned.)
