@@ -5,14 +5,20 @@ date:   2025-03-30 01:30:55 -0500
 categories: [coding,puzzles]
 ---
 Useless information: If you share a New York Times subscription with someone else, 
-both of you can use the web page interface and keep your own streak statistics, but 
-only one of you can use the mobile version that includes the WordleBot.
+and you both play Wordle, you can maintain your individual streak data as long 
+as you use different browsers to access the game. Using the 
+[WordleBot](https://www.nytimes.com/2022/04/07/upshot/wordle-bot-introduction.html), 
+however,
+requires a New York Times login, and Wordle will not maintain multiple users' 
+streak data when the users login using the same account credentials.
 
-Because the Wordlebot shows you the possible guesses at each step in solving the 
-puzzle, it lets you know if your game-ending guess was lucky or a lock.
+One of the interesting bits of information that the WordleBot provides is the 
+number of possible words that were available at each step in the game, letting
+you know the degree to which your solution was lucky or predestined.
 
 After finishing the [Regular Expression Dictionary]({% post_url 2025-02-05-red %}) I
-decided to create an app that would list possible Wordle words, given a series of 
+decided to replicate this functionality.
+I created an app that would list possible Wordle words, given a series of 
 guesses and the colors assigned by Wordle in response. 
 
 The service that I wrote for this application accepts two strings, one of the
@@ -31,7 +37,13 @@ Until today, when it responded
 
 ![default](/images/wwbug.png){: width="200" }
 
-Perusing the code that parses the input revealed the problem.
+The code records the following information from the supplied letters and colors:
+
+- A list of the letters that are known *not* to be in the solution word.
+- A list of the letters that *must* be in the solution word.
+- For each position, a list of the letters that *must* to be at that position.
+- For each position, a list of the letters that *must not* be at that position.
+&nbsp;
 {% highlight python linenos %}
 
 @app.route("/red/wordle/",methods=['GET', 'OPTIONS'])
@@ -46,16 +58,6 @@ always =  [ "","","","",""  ]
 elsewhere =  [ "","","","",""  ]
 required = ""
 
-textfile = open('wwords.txt', 'r')
-filetext = textfile.read()
-textfile.close()
-dictionary = [x.upper() for x in filetext.split('\n')]
-
-possibles = set()
-
-nwords = int(len(letters)/5)
-words = list()
-
 for i in range(0,nwords):
         words.append(letters[i*5:i*5+5])
         for j in range(0,5) :
@@ -68,32 +70,51 @@ for i in range(0,nwords):
                         elsewhere[j] += words[i][j]
                         required += words[i][j]
 {% endhighlight %}
-Lines 62-63 assume that if a letter is colored B (black), it does
+Lines 16-17 assume that if a letter is colored B (black), it does
 not appear in the answer. In fact, as in the case of `ATTIC`, if
 the guess contains multiple instances of a letter, all of which are
 incorrectly placed, only the first instance is colored Y (yellow).
 This represents a choice by the Wordle UI designer, since it would be
 equally reasonable to color all the instances yellow.
 
-After applying a quick fix
+The subtler error is in the way the parsing code represents the
+information provided by the game. The `always` and `elsewhere` arrays
+are meant to contain the characters at each position that must be
+present (green) or are required elsewhere in the word (yellow). Given
+the behavior of the game, it would make more sense to record for each
+position which letters are required (green) and which are prohibited
+(yellow or black) and separately maintain the global lists of 
+required and prohibited words.
+
+The corrected code changes the order in which the colors 
+are processed, and only adds
+letters to the `never` array if they are not already in the `required`
+array.
+
+
 ``` python
+never = ""
+always =  [ "","","","",""  ]
+prohibited =  [ "","","","",""  ]
+required = ""
+
 for i in range(0,nwords):
         words.append(letters[i*5:i*5+5])
         for j in range(0,5) :
-                if colors[i*5+j] == 'B' :
-                        if not (words[i][j] in required) : 
-                            never += words[i][j] 
-                elif colors[i*5+j] == 'G' :
+                if colors[i*5+j] == 'G' :
                         always[j] = words[i][j]
                         required += words[i][j]
-                else: # yellow
-                        elsewhere[j] += words[i][j]
+                elif colors[i*5+j] == 'Y' :
+                        prohibited[j] += words[i][j]
                         required += words[i][j]
+                else : 
+                        prohibited[j] = words[i][j]
+                        # It's only a never if it hasn't already shown up as yellow
+                        if not (words[i][j] in required) : 
+                                never += words[i][j] 
 ```
-the correct result is returned, revealing two common words to be
+After deploying the modified code, the correct result is returned, revealing two common words to be
 valid: `QUOTA` and `JUNTA`.
 
 ![default](/images/wwnobug.png){: width="200" }
 
-(Because this app shares its dictionary with the crossword-oriented Regular Expression Dictionary, 
-many proper nouns and other unlikely Wordle words are returned.)
