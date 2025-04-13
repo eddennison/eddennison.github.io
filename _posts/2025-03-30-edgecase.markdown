@@ -32,7 +32,7 @@ you would provide the strings `SMARTTABLEATTIC` and `BBYBYYYBBBYYBBB`,
 This service (and an associated rudimentary front end) have been up and running
 for a few months, and they have allowed my Wordle companion to see what other 
 possible solutions exist.
-
+<!--more-->
 Until today, when it responded
 
 ![default](/images/wwbug.png){: width="200" }
