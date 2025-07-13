@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Two for One"
+date:   2025-06-15 01:30:55 -0500
+categories: [wordplay]
+---
+Leading North American cryptic crossword setters Emily Cox and Henry Rathvon (collectively known 
+as [Hex](https://en.wikipedia.org/wiki/Emily_Cox_and_Henry_Rathvon)) recently 
+retired, just about the time that I became more interested in cryptics. Cryptics
+are popular in Britain, so many of the more challenging puzzles on line are 
+made more challenging by the presence of British references.
+
+I have been working my way through some of Hex's older puzzles published in
+Canada's [National Post](https://nationalpost.com/). The puzzles are not available through the Post website, but can be found 
+[here](https://natpostcryptic.blogspot.com/).
+
+A New York Times cryptic from a year ago 
+tripped me up with the clue *Obscure quote spreading around on Democrat*. 
+I already had the following letters from cross-words:
+ 
+    R _ C _ _ _ _ _E
+
+I assumed the word to be `RECHERCHE` and I assumed the clue was some how related 
+to HRC -- Hilary Rodham Clinton. Turns out that the answer was `RECONDITE`, 
+providing a lovely pair of nine-letter synonms sharing their first, third, and
+final letters.
+
+The official explanation from [The Times](https://www.nytimes.com/2024/03/14/crosswords/variety-cryptic-crossword.html) offers:
+
+> This solution is also an unusual word, with a 
+> difficult container clue. “Obscure quote spreading 
+> around on Democrat” solves to RECONDITE, which 
+> means “dealing with abstruse or difficult subjects.” 
+> To solve, wrap a word for “quote” — RECITE — around 
+> OND, or “on Democrat.”
+
+My first thought had been that the Democrat was [Gary **CONDIT**](https://en.wikipedia.org/wiki/Gary_Condit).
+
+
